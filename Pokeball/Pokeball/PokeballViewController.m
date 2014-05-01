@@ -58,7 +58,7 @@
 
 - (void)shakeBall {
     float shake_t = 0.3;
-    float wait_t = 0.5;
+    float wait_t = 0.6;
     float x_dist = 8;
     float degree = M_PI/4;
     
@@ -114,7 +114,7 @@
 }
 
 - (void)catch {
-    [UIView animateWithDuration:0.1 animations:^{
+    [UIView animateWithDuration:0.1 delay:0.5 options:UIViewAnimationOptionAllowUserInteraction animations:^{
         self.pokeball.alpha = 0.8;
     } completion:^(BOOL finished) {
         [UIView animateWithDuration:0.1 animations:^{
