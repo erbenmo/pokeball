@@ -22,6 +22,7 @@
 		0EF2B21F19121E0000286190 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF2B1FE19121E0000286190 /* UIKit.framework */; };
 		0EF2B22719121E0000286190 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0EF2B22519121E0000286190 /* InfoPlist.strings */; };
 		0EF2B22919121E0000286190 /* PokeballTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF2B22819121E0000286190 /* PokeballTests.m */; };
+		0EF2B23319121F4700286190 /* Pokeball.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EF2B23219121F4700286190 /* Pokeball.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		0EF2B22419121E0000286190 /* PokeballTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PokeballTests-Info.plist"; sourceTree = "<group>"; };
 		0EF2B22619121E0000286190 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0EF2B22819121E0000286190 /* PokeballTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PokeballTests.m; sourceTree = "<group>"; };
+		0EF2B23219121F4700286190 /* Pokeball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Pokeball.png; path = ../../../../../../Desktop/Pokeball.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 		0EF2B20119121E0000286190 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0EF2B23219121F4700286190 /* Pokeball.png */,
 				0EF2B20219121E0000286190 /* Pokeball-Info.plist */,
 				0EF2B20319121E0000286190 /* InfoPlist.strings */,
 				0EF2B20619121E0000286190 /* main.m */,
@@ -235,6 +238,7 @@
 				0EF2B21119121E0000286190 /* Main_iPad.storyboard in Resources */,
 				0EF2B21619121E0000286190 /* Images.xcassets in Resources */,
 				0EF2B20E19121E0000286190 /* Main_iPhone.storyboard in Resources */,
+				0EF2B23319121F4700286190 /* Pokeball.png in Resources */,
 				0EF2B20519121E0000286190 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

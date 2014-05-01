@@ -8,6 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PokeballViewController : UIViewController
+@interface PokeballViewController : UIViewController<UICollisionBehaviorDelegate>
+
+@property (nonatomic, strong) UIDynamicAnimator* animator;
+@property (nonatomic, strong) UIGravityBehavior* gravity;
+@property (nonatomic, strong) UICollisionBehavior* bounce;
+@property (nonatomic, strong) UIDynamicItemBehavior* elasticity;
+
+@property (nonatomic, strong) UIImageView* pokeball;
+
+@property int bounceCounter;
 
 @end
